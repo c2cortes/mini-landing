@@ -5,9 +5,11 @@ export default function MainSlider() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     slidesToShow: 1,
-    slidesToScroll: 1
+    slidesToScroll: 1,
+    arrows: false,
+    autoplay: true
   };
   return (
     <Slider {...settings}>
